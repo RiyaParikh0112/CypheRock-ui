@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+/* .App {
+  width: 100vw;
+  height: 100vh;
+} */
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main_sidebar {
+  flex: 1;
+}
+
+.main_dashboard {
+  flex: 3;
+}

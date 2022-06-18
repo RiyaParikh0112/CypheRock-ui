@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Avenir;
+  src: url(Assets/Fonts/Avenir65Medium.otf);
+}
+:root {
+  --font-family: Avenir, sans-serif;
+  --color-bg: #0a1018;
+  --color-sidebar: #161c23;
+  --color-text: #e7e7e7;
+  --color-mustard: #c78d4e;
+  --color-purple: #8484f1;
+}

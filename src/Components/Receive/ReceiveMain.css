@@ -1,0 +1,36 @@
+.modal_background {
+  position: fixed;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  z-index: 10;
+}
+.modal_container {
+  width: 700px;
+  height: 500px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: #13161a;
+}
+
+.modal_close_button {
+  display: flex;
+  justify-content: flex-end;
+}
+.modal_close_button button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+.modal_title {
+  display: flex;
+
+  justify-content: center;
+}

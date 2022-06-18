@@ -1,0 +1,42 @@
+.receive_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.receive_copy {
+  align-items: center;
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-around;
+  background-color: rgb(38, 38, 38);
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  color: var(--color-mustard);
+  border: solid 0.5px rgb(225, 178, 59);
+}
+.receive_copy button {
+  padding: 0.5rem 1rem;
+  background-color: rgb(58, 58, 58);
+  border: none;
+  color: white;
+  font-family: var(--font-family);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.receive_reverify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.receive_reverify button {
+  background: none;
+  border: 1px solid rgb(87, 0, 186);
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  font-family: var(--font-family);
+  color: rgb(87, 0, 186);
+  border-radius: 10px;
+}
